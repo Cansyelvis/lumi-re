@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>FICHE D'INSCRIPTION</title>
+    <img src="sary.png" alt="Mountain View" style="width:304px;height:228px;">
+</head>
+
+<body>
+    <main>
+        <section id="inscrire">
+            <div class="separe"></div>
+                <h2>inscription</h2>
+            <div class="style">
+                
+                <fieldset class="inscr">
+                    <legend>Inscrivez-vous</legend>
+                    <table>
+                        <tr>
+                            <td><label for="anarana">Nom</label></td>
+                            <td>:</td>
+                            <td><input type="text" id="anarana" placeholder="votre nom"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="fanampiny">Prenom(s)</label></td>
+                            <td>:</td>
+                            <td><input type="text" id="fanampiny" placeholder="votre prenom"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Sexe</label></td>
+                            <td><input type="radio">masculin</td>
+                            <td><input type="radio">feminin</td>
+                        </tr>
+                        <tr>
+                            <td><label for="daty">Date de naissance</label></td>
+                            <td>:</td>
+                            <td><input id="daty" type="date"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="adiresy">Adresse</label></td>
+                            <td>:</td>
+                            <td><input type="text" id="adiresy" placeholder="votre Adresse"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="tel"></label>Contact</td>
+                            <td>:</td>
+                            <td><input type="integer" id="tel" placeholder="votre contact"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="email"></label>Mail</td>
+                            <td>:</td>
+                            <td><input type="text" id="email" placeholder="votre mail"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="anrdada">fils/fille de</label></td>
+                            <td>:</td>
+                            <td><input type="text" id="anrdada" placeholder="nom de votre pere"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="anrmama">et de</label></td>
+                            <td>:</td>
+                            <td><input type="text" id="anrmama" placeholder="nom de votre Mere"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+        </section>
+        <section>
+            <div class="separe"></div>
+            <h2>langues et loisirs</h2>
+            <!-- tableau de langues -->
+            <form class="langue" action="">
+                <h3>Langues</h3>
+                        <table class="fiteny">
+                                <thead>
+                                    <th>Langue</th>
+                                    <th></th>
+                                    <th>Niveau</th>
+                                </thead>
+                                <tr>
+                                    <td>Malagasy</td>
+                                    <td>:</td>
+                                    <td><select class="form-control">
+                                        <option>Langue Maternelle</option>
+                                        <option>Lu, Parlé et Ecrit</option>
+                                        <option>Lu et Ecrit</option>
+                                        <option>-</option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td>Français</td>
+                                    <td>:</td>
+                                    <td><select class="form-control">
+                                        <option>Langue Maternelle</option>
+                                        <option>Lu, Parlé et Ecrit</option>
+                                        <option>Lu et Ecrit</option>
+                                        <option>-</option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td>Anglais</td>
+                                    <td>:</td>
+                                    <td><select class="form-control">
+                                        <option>Langue Maternelle</option>
+                                        <option>Lu, Parlé et Ecrit</option>
+                                        <option>Lu et Ecrit</option>
+                                        <option>-</option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td id="farany">Allemand</td>
+                                    <td>:</td>
+                                    <td id="farany"><select class="form-control">
+                                        <option>Langue Maternelle</option>
+                                        <option>Lu, Parlé et Ecrit</option>
+                                        <option>Lu et Ecrit</option>
+                                        <option>-</option>
+                                    </select></td>
+                                </tr>
+                        </table>   
+        </form>
+        <!-- tableau de loisir -->
+        <form class="loisir" action="">
+                <h3>Loisirs</h3>
+                <table class="fialamboly">
+                    <thead>
+                        <th><label for="sp">SPORTS</label></th>
+                        <th></th>
+                        <th><label for="ps">PASSIONS</label></th>
+                    </thead>
+                    <tr>
+                        <td><input type="text" id="sp" placeholder="entrer vos sports preferes" style="width:250px;margin-left: 20px;"></td>
+                        <td>|</td>
+                        <td><input type="text" id="ps" placeholder="entrer vos passions preferees"style="width:250px;margin-left: 20px;"></td>
+                    </tr>
+            </table> 
+        </form>
+        </section>
+        <br>
+        <section>
+            <table>
+                <tr>
+                    <td><button id="enre" type="submit">Enregistrer</button></td>
+                    <td></td>
+                    <td><button id="cancel" type="submit">Annuler</button></td>
+                </tr>
+            </table>
+        </section>
+    </main><br>
+    <footer style="border-top:solid 1px black;">
+        <div style="color: white;" class="haut">Copyright &COPY; 2021 </div>
+        <div style="color: white;" class="bas">By Fy</div>
+    </footer>
+</body>
+<!--passons maintenant au CSS.-->
+<style>
+    body{ background-image: url(2.png);
+    }
+ 
+</style>
+
+</html>
